@@ -1,0 +1,44 @@
+.form-label {
+  font-weight: bold;
+  color: #131313;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+
+.custom-height {
+  height: 600px;
+  max-height: 100vh;
+}
+
+.custom-button {
+  height: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  width:20% !important;
+  max-height: 100vh;
+}
+
+.form-control-plaintext {
+  border: none;
+  color: #333;
+  font-size: 26px
+}
+
+.back_icon {
+  height: 60px;
+}
+
+.edit-btn{
+  height: 35px;
+  padding-right: 10px;
+
+}
+
+.custom-button-edit{
+  height: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  width:20% !important;
+  max-height: 100vh;
+}

@@ -1,0 +1,13 @@
+.app_main-pagination {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.app_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  background-color: #f8f8ff;
+  height: 100%;
+}

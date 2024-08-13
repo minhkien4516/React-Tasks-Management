@@ -1,0 +1,26 @@
+.app {
+  display: grid;
+  grid-template-rows: 100% auto;
+  /* background-color: #f8f8ff */
+
+}
+
+.app_main {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: #f8f8ff; */
+  height: 800px;
+}
+
+.app_edit {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 8%;
+  padding: 50px;
+  margin-top: 150px;
+}
+
+.task_column {
+  width: 33.33%;
+  margin: 20px;
+}

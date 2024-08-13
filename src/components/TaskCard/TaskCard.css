@@ -1,0 +1,138 @@
+.task_card {
+  width: 100%;
+  min-height: 48%;
+  border: 10px solid #dcdcdc;
+  border-radius: 10px;
+  padding:15px;
+  margin-bottom:15px;
+  cursor: grab;
+  height: 300px; 
+}
+
+.task_card_tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+}
+.task_card:active{
+  opacity: 0.7;
+  border: 1px solid #111;
+}
+
+.task_text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.task_date {
+  font-size: 18px;
+  /* font-weight: bold; */
+  margin-bottom: 15px;
+}
+
+.task_category {
+  font-size: 18px;
+  /* font-weight: bold; */
+  margin-bottom: 15px;
+}
+
+.task_card_bottom_line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task_card_action{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.task_delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
+  width: 50px;
+  height: 80px;
+  border: none;
+  background: none;
+  margin-top: -1px;
+
+}
+
+.task_delete:hover {
+  background-color: #ebebeb;
+  border-radius: 100%;
+}
+
+.delete_icon {
+  width: 40px;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.task_delete:hover .delete_icon{
+  opacity: 80%;
+}
+
+.task_edit {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
+  width: 50px;
+  height: 80px;
+  border-radius: 100%;
+  margin-top: -1px /*can delete */
+}
+
+.task_edit:hover {
+  background-color: #ebebeb;
+}
+
+.task_edit:hover .edit_icon{
+  opacity: 80%;
+}
+
+.task_view {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
+  width: 50px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.task_view:hover {
+  background-color: #ebebeb;
+}
+
+.edit_icon {
+  width: 45px;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.view_icon {
+  width: 45px;
+  mix-blend-mode: multiply;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.task_view:hover .view_icon{
+  opacity: 80%;
+}
+
+.task_delete button{
+  border: 0;
+  background: none;
+}
