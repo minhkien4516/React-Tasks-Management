@@ -1,4 +1,4 @@
-# React + Redux + Bootstraps + Vite   ===>   Tasks Management CRUD
+# React + Redux + Bootstraps + Vite in Frontend  ===>   Tasks Management CRUD && MockAPI as Backend
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
